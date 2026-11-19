@@ -1,0 +1,223 @@
+---
+name: Playful Precision
+colors:
+  surface: '#fbf8ff'
+  surface-dim: '#d5d7fe'
+  surface-bright: '#fbf8ff'
+  surface-container-lowest: '#ffffff'
+  surface-container-low: '#f4f2ff'
+  surface-container: '#edecff'
+  surface-container-high: '#e6e6ff'
+  surface-container-highest: '#dfe0ff'
+  on-surface: '#151936'
+  on-surface-variant: '#454653'
+  inverse-surface: '#2a2e4c'
+  inverse-on-surface: '#f0efff'
+  outline: '#757685'
+  outline-variant: '#c6c5d6'
+  surface-tint: '#4252c6'
+  primary: '#3142b6'
+  on-primary: '#ffffff'
+  primary-container: '#4c5cd0'
+  on-primary-container: '#e5e6ff'
+  inverse-primary: '#bcc2ff'
+  secondary: '#7b5800'
+  on-secondary: '#ffffff'
+  secondary-container: '#fdc656'
+  on-secondary-container: '#735200'
+  tertiary: '#005a53'
+  on-tertiary: '#ffffff'
+  tertiary-container: '#00756c'
+  on-tertiary-container: '#76fdee'
+  error: '#ba1a1a'
+  on-error: '#ffffff'
+  error-container: '#ffdad6'
+  on-error-container: '#93000a'
+  primary-fixed: '#dfe0ff'
+  primary-fixed-dim: '#bcc2ff'
+  on-primary-fixed: '#000c61'
+  on-primary-fixed-variant: '#2738ad'
+  secondary-fixed: '#ffdea4'
+  secondary-fixed-dim: '#f4be4e'
+  on-secondary-fixed: '#261900'
+  on-secondary-fixed-variant: '#5d4200'
+  tertiary-fixed: '#70f8e8'
+  tertiary-fixed-dim: '#4fdbcc'
+  on-tertiary-fixed: '#00201d'
+  on-tertiary-fixed-variant: '#005049'
+  background: '#fbf8ff'
+  on-background: '#151936'
+  surface-variant: '#dfe0ff'
+typography:
+  display-hero:
+    fontFamily: Plus Jakarta Sans
+    fontSize: 40px
+    fontWeight: '800'
+    lineHeight: 48px
+    letterSpacing: -0.02em
+  display-hero-mobile:
+    fontFamily: Plus Jakarta Sans
+    fontSize: 32px
+    fontWeight: '800'
+    lineHeight: 40px
+    letterSpacing: -0.02em
+  headline-lg:
+    fontFamily: Plus Jakarta Sans
+    fontSize: 28px
+    fontWeight: '800'
+    lineHeight: 36px
+    letterSpacing: -0.01em
+  headline-md:
+    fontFamily: Plus Jakarta Sans
+    fontSize: 24px
+    fontWeight: '700'
+    lineHeight: 32px
+  headline-sm:
+    fontFamily: Plus Jakarta Sans
+    fontSize: 20px
+    fontWeight: '700'
+    lineHeight: 28px
+  title-md:
+    fontFamily: Plus Jakarta Sans
+    fontSize: 18px
+    fontWeight: '700'
+    lineHeight: 24px
+  body-xl:
+    fontFamily: Be Vietnam Pro
+    fontSize: 20px
+    fontWeight: '500'
+    lineHeight: 30px
+  body-lg:
+    fontFamily: Be Vietnam Pro
+    fontSize: 18px
+    fontWeight: '500'
+    lineHeight: 28px
+  body-md:
+    fontFamily: Be Vietnam Pro
+    fontSize: 16px
+    fontWeight: '400'
+    lineHeight: 24px
+  label-lg:
+    fontFamily: Plus Jakarta Sans
+    fontSize: 16px
+    fontWeight: '700'
+    lineHeight: 22px
+    letterSpacing: 0.02em
+  label-md:
+    fontFamily: Plus Jakarta Sans
+    fontSize: 14px
+    fontWeight: '700'
+    lineHeight: 20px
+    letterSpacing: 0.03em
+  caption:
+    fontFamily: Be Vietnam Pro
+    fontSize: 13px
+    fontWeight: '600'
+    lineHeight: 18px
+rounded:
+  sm: 0.25rem
+  DEFAULT: 0.5rem
+  md: 0.75rem
+  lg: 1rem
+  xl: 1.5rem
+  full: 9999px
+spacing:
+  gutter: 1rem
+  gutter-tablet: 1.5rem
+  margin: 1.25rem
+  margin-tablet: 2rem
+  margin-desktop: 3rem
+  space-xs: 0.25rem
+  space-sm: 0.5rem
+  space-md: 1rem
+  space-lg: 1.5rem
+  space-xl: 2rem
+  space-2xl: 3rem
+---
+
+## Brand & Style
+
+This design system blends cheerful, child-empowering energy with refined geometric structure. Crafted for young learners navigating foundational concepts and parents monitoring early milestones, the interface establishes an atmosphere of playful competence and warmth. It balances joyful, gamified discovery with sophisticated restraint, avoiding noisy hyper-stimulation, garish gradients, and infantilizing chaos.
+
+### Design Movement & Aesthetic
+- **Tactile Warm Modernism**: Combines generous touch affordances, clear rounded volumes, and inviting physical metaphors (soft physical presses, bouncy responsiveness) with modern typographic discipline and airy spacing.
+- **Cognitive Clarity**: Prioritizes cognitive ease for children developing visual literacy through high-contrast typography, unmistakable action signifiers, and contextual color-coding.
+- **Parental Reassurance**: Clean lines, deliberate white space, and purposeful elevation signal pedagogical quality and calm focus.
+
+## Colors
+
+The palette uses a deliberate primary anchor paired with high-energy pedagogical accents, grounded on a clean, light base to reduce eye strain and maintain clarity.
+
+### Functional Roles
+- **Primary (`#4C5CD0`)**: Trustworthy, energetic royal indigo. Drives primary calls to action, core progression markers, navigation state indicators, and focal interactive surfaces.
+- **Secondary (`#FFC857`)**: Radiant warm gold. Reserved for achievements, rewards, streaks, star currencies, and active highlight states.
+- **Tertiary / Math (`#2EC4B6`)**: Refreshing mint. Applied to arithmetic quests, numeric puzzles, and active success confirmations.
+- **Language / Palabras (`#FF9F1C`)**: Soft radiant amber-orange. Distinguishes linguistic and vocabulary challenges.
+- **Memory / Memoria (`#845EC2`)**: Gentle amethyst violet. Applied to cognitive recall games, sequencing, and spatial memory modules.
+- **Logic / Lógica (`#00B4D8`)**: Clear sky turquoise. Guides deduction grids, matching puzzles, and spatial reasoning tasks.
+- **Canvas Base (`#FFFDF7`)**: Soft, warm milk-white delivering low glare, high warmth, and superior comfort over stark clinical white.
+- **Neutral Foreground (`#1F2340`)**: Deep midnight slate ensuring high-contrast legibility for developing readers while maintaining a gentler tone than pure black.
+
+## Typography
+
+The typographic pairing balances open geometric friendliness with functional clarity for young readers.
+
+- **Headlines (`Plus Jakarta Sans`)**: Robust terminals and friendly, circular proportions give titles an engaging punch without appearing cartoonish. Weights are set to Bold (700) and ExtraBold (800) to reinforce hierarchy on handheld screens.
+- **Body & Prompts (`Be Vietnam Pro`)**: Open apertures, balanced ascenders, and wide proportions ensure immediate glyph recognition for emerging readers. Body copy defaults to `18px` (`body-lg`) across key tasks to facilitate rapid, strain-free scanning.
+- **Numbers & Scores**: Numerals in instructional paths and score counters rely on `Plus Jakarta Sans` for clean, unambiguous differentiation (e.g., clear separation between 1, 7, and 0).
+
+## Layout & Spacing
+
+Layouts follow an 8-point base grid designed for handheld mobile interactions, with strict vertical constraints to keep games and interactive modules fully above the fold.
+
+### Responsive Structure
+- **Mobile (Base, 360px–599px)**: Single-column fluid layouts with `margin: 1.25rem` (20px) and a consistent `1rem` (16px) gutter. Interactive game canvases occupy central cards with minimum 48px to 56px touch target floors.
+- **Tablet (600px–1023px)**: 8-column layout with `2rem` outer margins. Modules reflow into split-view cards (activity arena on the left/center, companion HUD and feedback tray on the right).
+- **Desktop / Parent Portal (1024px+)**: Max-width content boundary pinned at 1120px with 12 fluid columns, preventing kid-directed experiences from stretching horizontally while offering parents structured progress analytics.
+
+### Spacing Principles
+- Minimum vertical separation of `space-md` (16px) between tappable targets to eliminate mis-taps.
+- Interior card padding is fixed to `space-lg` (24px) to preserve breathing room around iconography, illustrations, and tactile actions.
+
+## Elevation & Depth
+
+Visual hierarchy uses physical, tactile planes rather than dark or diffuse drop shadows. Shadows carry a subtle cool-indigo undertone to blend cleanly with `#FFFDF7`.
+
+### Elevation Tiers
+- **Surface Level 0 (Canvas)**: Background canvas (`#FFFDF7`). Pure matte surface with zero shadow.
+- **Surface Level 1 (Tactile Cards & Playfield Panels)**: Crisp `#FFFFFF` surface lifted by an ambient tactile drop shadow: `0 4px 14px -2px rgba(76, 92, 208, 0.08), 0 2px 6px -1px rgba(31, 35, 64, 0.04)`. Supported by a 1px soft border in `rgba(76, 92, 208, 0.08)` to prevent edge blur.
+- **Surface Level 2 (Interactive Floating Modules & Modals)**: Lifted cards and action sheets: `0 12px 28px -4px rgba(76, 92, 208, 0.14), 0 4px 10px -2px rgba(31, 35, 64, 0.04)`.
+- **Button Depth (Tactile Bevel Effect)**: Interactive buttons feature a physical 4px bottom support rim (`box-shadow: 0 4px 0 0 [Darker Shade]`), which shifts downward by 2px on press (`transform: translateY(2px)`) with a compressed 2px rim to provide tangible physical feedback.
+
+## Shapes
+
+With `roundedness: 2`, geometric elements use generous, friendly curves without collapsing entirely into unstructured pills.
+
+- **Standard Containers & Cards**: Default to `rounded-xl` (`1.5rem` / 24px) for a soft, inviting form factor.
+- **Interactive Controls (Buttons, Text Inputs, Category Badges)**: Use `rounded-lg` (`1rem` / 16px) up to full-radius pills where continuous tapping is encouraged.
+- **Small Indicators & Status Tags**: Use `0.5rem` (8px) for crisp edge clarity at compact scales.
+- **Icons & Badges**: Framed inside squircle enclosures with 16px corner radii to maintain visual continuity across subjects.
+
+## Components
+
+### Buttons
+- **Primary Hero Action**: Minimum 56px height. Filled with Primary Indigo (`#4C5CD0`), text in pure white `Plus Jakarta Sans` Bold (16px), corner radius `1rem`. Built with a 4px physical bottom lip in `#3946A6`. Active/press state translates 2px down with a reduced 2px shadow.
+- **Secondary Action**: Minimum 48px height. Warm Golden Yellow (`#FFC857`) background with dark neutral text (`#1F2340`) and a bottom lip in `#E0A935`.
+- **Ghost & Back Buttons**: Minimum 48px square or pill container. Soft surface in `rgba(76, 92, 208, 0.08)` with `#4C5CD0` icons and text.
+
+### Interactive Task Cards
+- Surfaces set in pure white (`#FFFFFF`) with 24px corner radii, 20px interior padding, and Level 1 elevation.
+- Category modules tint the top edge or upper banner with their assigned discipline color (e.g., `#2EC4B6` for Math, `#FF9F1C` for Language).
+- State variants include resting, selected (2px solid Primary border with a soft tinted wash), and success (animated mint outline).
+
+### Chips & Subject Badges
+- 36px to 40px height for reliable touch selection.
+- Rounded pill form with a soft 12% opacity tint of the subject color as background and the solid 100% token for typography and companion icons.
+
+### Inputs & Selection Controls
+- **Form Inputs**: 52px height, `rounded-lg` (16px), `#FFFFFF` fill with a 1.5px subtle border in `rgba(31, 35, 64, 0.15)`. Active focus transitions to a 2px `#4C5CD0` stroke with a 3px soft indigo halo.
+- **Selection Tiles & Radios**: Replaced with chunky card blocks (minimum 64px x 64px) featuring centered iconography and high-contrast labels. Selected states display an affirmative primary check badge in the top-right corner.
+
+### Parental Progress & HUD Components
+- **Progress Trackers**: 16px thick rounded progress bars with a warm cream trough (`rgba(76, 92, 208, 0.10)`) and a rounded solid fill matching the current subject module.
+- **Streak & Star Counter**: Encapsulated in pill-shaped badges (`#FFFFFF` background, subtle shadow, featuring a `#FFC857` star icon paired with `Plus Jakarta Sans` Bold numeric typography).

@@ -1,0 +1,178 @@
+import {
+  SubjectCategory,
+  SubjectConfig,
+  AvatarAccessory,
+  AchievementBadge,
+  ChildProfile,
+  ProfileProgress,
+} from '../types';
+
+export const COLORS = {
+  primary: '#4C5CD0',
+  primaryDark: '#3946A6',
+  secondary: '#FFC857',
+  secondaryDark: '#DDA734',
+  math: '#2EC4B6',
+  mathDark: '#1FA296',
+  language: '#FF9F1C',
+  languageDark: '#D8810E',
+  memory: '#845EC2',
+  memoryDark: '#6B46A5',
+  logic: '#00B4D8',
+  logicDark: '#0093B2',
+  canvas: '#FFFDF7',
+  ink: '#1F2340',
+  cardBorder: 'rgba(76, 92, 208, 0.08)',
+};
+
+export const SUBJECT_CONFIGS: Record<SubjectCategory, SubjectConfig> = {
+  math: {
+    id: 'math',
+    name: 'Matemáticas',
+    subtitle: 'Números y Formas',
+    color: '#2EC4B6',
+    darkRimColor: '#1FA296',
+    lightBg: '#E9F9F7',
+    textColor: '#0B635B',
+    accentBadge: '#B2EBE5',
+    iconName: 'Calculator',
+    description: 'Cuenta objetos animados, descubre sumas visuales y descifra secuencias numéricas.',
+    skillsTaught: ['Conteo y Cantidades', 'Suma Temprana', 'Patrones Numéricos', 'Geometría Básica'],
+  },
+  language: {
+    id: 'language',
+    name: 'Palabras & Fonética',
+    subtitle: 'Sonidos y Lectura',
+    color: '#FF9F1C',
+    darkRimColor: '#D8810E',
+    lightBg: '#FFF5E8',
+    textColor: '#8C5200',
+    accentBadge: '#FFE1B8',
+    iconName: 'BookOpen',
+    description: 'Arma bloques de letras, descubre rimas secretas y expande tu vocabulario diario.',
+    skillsTaught: ['Reconocimiento de Letras', 'Palabras Clave', 'Detective de Rimas', 'Ortografía Lúdica'],
+  },
+  memory: {
+    id: 'memory',
+    name: 'Reino de Memoria',
+    subtitle: 'Retención y Secuencia',
+    color: '#845EC2',
+    darkRimColor: '#6B46A5',
+    lightBg: '#F3ECFA',
+    textColor: '#4E2C83',
+    accentBadge: '#DBCDF0',
+    iconName: 'Brain',
+    description: 'Entrena tu memoria de trabajo volteando parejas de animales y repitiendo ecos melódicos.',
+    skillsTaught: ['Memoria de Trabajo', 'Secuencias Melódicas', 'Orientación Espacial', 'Enfoque y Atención'],
+  },
+  logic: {
+    id: 'logic',
+    name: 'Lógica Detective',
+    subtitle: 'Patrones y Deducción',
+    color: '#00B4D8',
+    darkRimColor: '#0093B2',
+    lightBg: '#E4F7FC',
+    textColor: '#005D71',
+    accentBadge: '#B8EDFA',
+    iconName: 'Compass',
+    description: 'Completa matrices lógicas, detecta el elemento intruso y equilibra balanzas de peso.',
+    skillsTaught: ['Razonamiento Deductivo', 'Continuación de Patrones', 'Categorización', 'Solución de Problemas'],
+  },
+};
+
+export const INITIAL_PROFILES: ChildProfile[] = [
+  { id: 'leo', name: 'Leo', avatar: '🦁', color: '#FFC857', age: 4 },
+  { id: 'luna', name: 'Sofía', avatar: '🦉', color: '#4C5CD0', age: 5 },
+];
+
+export const createEmptyProfileProgress = (): ProfileProgress => ({
+  subjectStats: {
+    math: { level: 1, questsCompleted: 0, accuracy: 0, starsEarned: 0, minutesSpent: 0 },
+    language: { level: 1, questsCompleted: 0, accuracy: 0, starsEarned: 0, minutesSpent: 0 },
+    memory: { level: 1, questsCompleted: 0, accuracy: 0, starsEarned: 0, minutesSpent: 0 },
+    logic: { level: 1, questsCompleted: 0, accuracy: 0, starsEarned: 0, minutesSpent: 0 },
+  },
+  streakDays: 0,
+  dailyGoalCompleted: 0,
+  lastActivity: undefined,
+  questHistory: [],
+});
+
+export const INITIAL_PROFILES_PROGRESS: Record<string, ProfileProgress> = {
+  leo: createEmptyProfileProgress(),
+  luna: createEmptyProfileProgress(),
+};
+
+export const ACCESSORIES: AvatarAccessory[] = [
+  { id: 'star-crown', name: 'Corona de Estrellas de Oro', price: 20, icon: '👑', type: 'hat', unlocked: false },
+  { id: 'smart-glasses', name: 'Gafas de Detective Sabio', price: 25, icon: '👓', type: 'glasses', unlocked: false },
+  { id: 'astro-helmet', name: 'Casco de Astronauta', price: 40, icon: '🧑‍🚀', type: 'hat', unlocked: false },
+  { id: 'wizard-hat', name: 'Sombrero de Hechicero', price: 35, icon: '🧙‍♂️', type: 'hat', unlocked: false },
+  { id: 'hero-cape', name: 'Capa de Campeón', price: 50, icon: '🦸', type: 'cape', unlocked: false },
+  { id: 'sun-shades', name: 'Gafas de Sol Geniales', price: 15, icon: '🕶️', type: 'glasses', unlocked: false },
+  { id: 'medal-badge', name: 'Medalla de Maestro Explorador', price: 60, icon: '🏅', type: 'badge', unlocked: false },
+  { id: 'dino-hoodie', name: 'Capucha de Dinosaurio', price: 45, icon: '🦖', type: 'hat', unlocked: false },
+];
+
+export const INITIAL_ACHIEVEMENTS: AchievementBadge[] = [
+  {
+    id: 'math-star',
+    title: 'Pionero Matemático',
+    description: '¡Resuelve 3 misiones de matemáticas con conteo impecable!',
+    icon: '🔢',
+    category: 'math',
+    unlocked: false,
+    requiredCount: 3,
+    currentCount: 0,
+  },
+  {
+    id: 'word-builder',
+    title: 'Mago de las Palabras',
+    description: 'Completa 5 misiones de vocabulario y fonética en Palabras.',
+    icon: '🔤',
+    category: 'language',
+    unlocked: false,
+    requiredCount: 5,
+    currentCount: 0,
+  },
+  {
+    id: 'memory-master',
+    title: 'Maestro de la Memoria',
+    description: 'Completa 4 misiones en Reino de Memoria.',
+    icon: '🃏',
+    category: 'memory',
+    unlocked: false,
+    requiredCount: 4,
+    currentCount: 0,
+  },
+  {
+    id: 'logic-sleuth',
+    title: 'Detective de Enigmas',
+    description: 'Resuelve 4 misiones de patrones en Lógica Detective.',
+    icon: '🔍',
+    category: 'logic',
+    unlocked: false,
+    requiredCount: 4,
+    currentCount: 0,
+  },
+  {
+    id: 'streak-fire',
+    title: 'Héroe de Racha de 5 Días',
+    description: '¡Aprende 5 días consecutivos con tu explorador!',
+    icon: '🔥',
+    category: 'general',
+    unlocked: false,
+    requiredCount: 5,
+    currentCount: 0,
+  },
+  {
+    id: 'super-star-banker',
+    title: 'Coleccionista de 100 Estrellas',
+    description: 'Acumula 100 estrellas radiantes en tus aventuras.',
+    icon: '⭐',
+    category: 'general',
+    unlocked: false,
+    requiredCount: 100,
+    currentCount: 0,
+  },
+];
